@@ -1,0 +1,41 @@
+{
+    "name": "renaatdemuynck/bootstrap-multiselect",
+    "description": "Bootstrap multiselect jQuery plug-in",
+    "type": "component",
+    "license": [
+       "BSD-3-Clause",
+       "Apache-2.0"
+    ],
+    "homepage": "http://davidstutz.github.io/bootstrap-multiselect/",
+    "authors": [
+        {
+            "name": "David Stutz",
+            "email": "davidstutz@web.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "components/jquery": "~2",
+        "components/bootstrap": "~3"
+    },
+    "extra": {
+        "component": {
+            "name": "bootstrap-multiselect",
+            "scripts": [
+                "js/bootstrap-multiselect.js"
+            ],
+            "styles": [
+                "css/bootstrap-multiselect.css"
+            ],
+            "files": [
+                "less/bootstrap-multiselect.less"
+            ],
+            "shim": {
+                "deps": [
+                    "jquery"
+                ],
+                "exports": "jQuery.multiselect"
+            }
+        }
+    }
+}
